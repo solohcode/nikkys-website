@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?24e3121b080e2c34a57cbb901b4690c3") format("truetype"),
+url("./flaticon.woff?24e3121b080e2c34a57cbb901b4690c3") format("woff"),
+url("./flaticon.woff2?24e3121b080e2c34a57cbb901b4690c3") format("woff2"),
+url("./flaticon.eot?24e3121b080e2c34a57cbb901b4690c3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?24e3121b080e2c34a57cbb901b4690c3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-artist-hat:before {
+    content: "\f101";
+}
+.flaticon-pamela-hat:before {
+    content: "\f102";
+}
+.flaticon-hat:before {
+    content: "\f103";
+}
+.flaticon-hat-1:before {
+    content: "\f104";
+}
+.flaticon-pamela:before {
+    content: "\f105";
+}
+.flaticon-pamela-1:before {
+    content: "\f106";
+}
+.flaticon-pamela-2:before {
+    content: "\f107";
+}

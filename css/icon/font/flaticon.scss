@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?53dee78dff8144a75a01e16a827709b9") format("truetype"),
+url("./flaticon.woff?53dee78dff8144a75a01e16a827709b9") format("woff"),
+url("./flaticon.woff2?53dee78dff8144a75a01e16a827709b9") format("woff2"),
+url("./flaticon.eot?53dee78dff8144a75a01e16a827709b9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?53dee78dff8144a75a01e16a827709b9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "dress": "\f101",
+    "dress-1": "\f102",
+    "gown": "\f103",
+    "long-black-gown": "\f104",
+    "clothes": "\f105",
+    "model": "\f106",
+    "gioconda": "\f107",
+    "artist-hat": "\f108",
+    "fashionista": "\f109",
+);
+
+.flaticon-dress:before {
+    content: map-get($flaticon-map, "dress");
+}
+.flaticon-dress-1:before {
+    content: map-get($flaticon-map, "dress-1");
+}
+.flaticon-gown:before {
+    content: map-get($flaticon-map, "gown");
+}
+.flaticon-long-black-gown:before {
+    content: map-get($flaticon-map, "long-black-gown");
+}
+.flaticon-clothes:before {
+    content: map-get($flaticon-map, "clothes");
+}
+.flaticon-model:before {
+    content: map-get($flaticon-map, "model");
+}
+.flaticon-gioconda:before {
+    content: map-get($flaticon-map, "gioconda");
+}
+.flaticon-artist-hat:before {
+    content: map-get($flaticon-map, "artist-hat");
+}
+.flaticon-fashionista:before {
+    content: map-get($flaticon-map, "fashionista");
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?53dee78dff8144a75a01e16a827709b9") format("truetype"),
+url("./flaticon.woff?53dee78dff8144a75a01e16a827709b9") format("woff"),
+url("./flaticon.woff2?53dee78dff8144a75a01e16a827709b9") format("woff2"),
+url("./flaticon.eot?53dee78dff8144a75a01e16a827709b9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?53dee78dff8144a75a01e16a827709b9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-dress:before {
+    content: "\f101";
+}
+.flaticon-dress-1:before {
+    content: "\f102";
+}
+.flaticon-gown:before {
+    content: "\f103";
+}
+.flaticon-long-black-gown:before {
+    content: "\f104";
+}
+.flaticon-clothes:before {
+    content: "\f105";
+}
+.flaticon-model:before {
+    content: "\f106";
+}
+.flaticon-gioconda:before {
+    content: "\f107";
+}
+.flaticon-artist-hat:before {
+    content: "\f108";
+}
+.flaticon-fashionista:before {
+    content: "\f109";
+}
